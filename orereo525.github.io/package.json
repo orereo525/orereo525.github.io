@@ -1,0 +1,21 @@
+{
+  "name": "orereo525.github.io",
+  "version": "1.0.0",
+  "description": "github pages",
+  "author": "orereo525",
+  "private": true,
+  "scripts": {
+  "dev": "nuxt",
+  "build": "nuxt build",
+  "start": "nuxt start",
+  "generate": "nuxt generate",
+  "deploy": "push-dir --dir=dist --branch=master --cleanup"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "ant-design-vue": "^1.1.10"
+  },
+  "devDependencies": {
+    "push-dir": "^0.4.1"
+  },
+}
